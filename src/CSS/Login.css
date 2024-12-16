@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/assets/Background.svg);
+} */
+
+.login-container {
+    background-color: #faf9f6;
+    padding: 30px;
+    width: 390px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+.login-container p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.toggle-password {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+form label {
+    display: block;
+    text-align: left;
+    font-size: 0.9em;
+    margin: 10px 0 5px;
+}
+
+input[type="email"],
+input[type="password"],
+.password-container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #e0e0e0;
+    height: 40px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #e78a42;
+}
+
+.password-container {
+    position: relative;
+    height: 40px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    line-height: 40px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85em;
+}
+
+.remember-forgot a {
+    color: #e78a42;
+    text-decoration: none;
+}
+
+.login-button {
+    background-color: #fb6816;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 15px;
+}
+
+.separator {
+    font-size: 0.9em;
+    color: #777;
+    margin: 20px 0;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+}
+
+.google {
+    color: #db4437;
+    width: 45px;
+    margin: -10px -8px 0 9px;
+}
+
+.facebook {
+    color: #3b5998;
+    width: 70px;
+    height: 36px;
+    margin: -5px -5px 0 0;
+}
+
+.register {
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.register a {
+    color: #e78a42;
+    text-decoration: none;
+}

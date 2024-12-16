@@ -1,0 +1,173 @@
+/* Register.css */
+
+/* Container untuk halaman register */
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .register-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .register-container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  /* Gaya untuk input form */
+  .register-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .facebook{
+    width: 45px;
+    height: 23px;
+    margin-top: -5px;
+  }
+
+  .register-container input:focus {
+    outline: none;
+    background-color: #fff;
+    border-color: #ff7f50;
+    box-shadow: 0 0 0 2px rgba(255, 127, 80, 0.2);
+  }
+
+  /* Gaya untuk tombol */
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  #name,#email{
+    margin-bottom: 3px;
+  }
+
+  #password{
+    bottom: 50px;
+  }
+
+  .conf{
+    margin-top: 5px ;
+  }
+
+  .register-button:hover {
+    background-color: #ff5722;
+    margin-top: 20px;
+  }
+
+  /* Separator untuk daftar dengan */
+  .separator {
+    margin: 15px 0;
+    font-size: 12px;
+    color: #aaa;
+    display: flex;
+    align-items: center;
+  }
+
+  .separator:before,
+  .separator:after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+  }
+
+  .separator:before {
+    margin-right: 10px;
+  }
+
+  .separator:after {
+    margin-left: 10px;
+  }
+
+  /* Gaya untuk login dengan media sosial */
+  .social-register {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .paragraph{
+    margin-top: -5px;
+  }
+
+  .google {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .social-register img:hover {
+    transform: scale(1.1);
+  }
+
+  /* Gaya untuk teks login */
+  .login {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .login a {
+    color: #ff7f50;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .login a:hover {
+    text-decoration: underline;
+  }
+
+  /* Password container untuk input dengan ikon toggle */
+  .password-container {
+    position: relative;
+  }
+
+  .password-container input {
+    padding-right: 40px;
+  }
+
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #888;
+    transition: color 0.3s ease;
+  }
+
+  .toggle-password:hover {
+    color: #ff7f50;
+  }

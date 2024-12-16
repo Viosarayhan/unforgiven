@@ -1,0 +1,558 @@
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  margin: 0;
+}
+
+.e-learning {
+  background-color: #fffff0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.e-learning .div {
+  background-color: var(--neutralwhite);
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  min-width: 500px;
+  height: auto;
+  display: flex;
+}
+
+.e-learning .frame {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 60px 150px;
+  position: absolute;
+  margin: 0;
+  width: 100vw;
+  top: 64px;
+  /* right: -50px; */
+  height: 245px;
+  background-color: #00000099;
+  background-image: url(/assets/chef.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.e-learning .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 1006px;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -50px;
+}
+
+.e-learning .persiapkan-diri {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--heading-bold-40-font-family);
+  font-weight: var(--heading-bold-40-font-weight);
+  color: var(--neutralwhite);
+  font-size: var(--heading-bold-40-font-size);
+  letter-spacing: var(--heading-bold-40-letter-spacing);
+  line-height: var(--heading-bold-40-line-height);
+  font-style: var(--heading-bold-40-font-style);
+}
+
+.e-learning .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  height: 45px;
+  font-family: var(--body-18-font-family);
+  font-weight: var(--body-18-font-weight);
+  color: var(--neutralwhite);
+  font-size: var(--body-18-font-size);
+  letter-spacing: var(--body-18-letter-spacing);
+  line-height: var(--body-18-line-height);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-style: var(--body-18-font-style);
+}
+
+.e-learning .frame-3 {
+  display: flex;
+
+  justify-content: center;
+  position: absolute;
+  top: 460px;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 30px;
+}
+
+.e-learning .default-wrapper {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.e-learning .default {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  align-items: center;
+  padding: 0px 0px;
+  position: relative;
+  background-color: var(--primarypurple-100);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow-XL);
+}
+
+.e-learning .rectangle {
+  position: relative;
+  width: 248px;
+  height: 206px;
+  margin-left: -20.00px;
+  margin-right: -20.00px;
+  object-fit: cover;
+}
+
+.e-learning .frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  margin-right: 20px;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  padding: 15px 0;
+  width: auto;
+  flex: 0 0 auto;
+}
+
+.e-learning .lorem-ipsum-dolor-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.e-learning .lorem-ipsum-dolor {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--sub-heading-20-font-family);
+  font-weight: var(--sub-heading-20-font-weight);
+  color: var(--neutralwhite);
+  font-size: 18.5px;
+  letter-spacing: var(--sub-heading-20-letter-spacing);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  font-style: var(--sub-heading-20-font-style);
+}
+
+.e-learning .frame-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.e-learning .frame-6 {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.e-learning .icon-person-outline {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  background-image: url(/assets/person_outline.svg);
+  background-size: 100% 100%;
+}
+
+.e-learning .lorem-ipsum {
+  flex: 1;
+  font-family: var(--body-16-font-family);
+  font-weight: var(--body-16-font-weight);
+  color: var(--neutralwhite);
+  font-size: var(--body-16-font-size);
+  letter-spacing: var(--body-16-letter-spacing);
+  position: relative;
+  margin-top: -1.00px;
+  line-height: var(--body-16-line-height);
+  font-style: var(--body-16-font-style);
+}
+
+.e-learning .img {
+  position: relative;
+  width: 19px;
+  height: 19px;
+}
+
+.e-learning .icon-star {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  background-image: url(/assets/star.svg);
+  background-size: 100% 100%;
+}
+
+.e-learning .frame-7 {
+  display: flex;
+  width: 1142px;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  top: 840px;
+  left: 50%;
+  gap: 30px;
+  transform: translateX(-50%);
+  align-items: center;
+  margin-top: 20px;
+}
+
+.e-learning .icon-person-outline-2 {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  background-image: url(/assets/person_outline.svg);
+  background-size: 100% 100%;
+}
+
+.e-learning .icon-star-2 {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  background-image: url(/assets/star.svg);
+  background-size: 100% 100%;
+}
+
+.e-learning .frame-8 {
+  display: flex;
+  width: 1142px;
+  align-items: center;
+  gap: 30px;
+  position: absolute;
+  top: 1310px;
+  left: 50%;
+  justify-content: center;
+  gap: 30px;
+  transform: translateX(-50%);
+
+}
+
+.e-learning .frame-9 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: absolute;
+  top: 390px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.e-learning .frame-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #000000;
+  height: 40px;
+}
+
+.e-learning .frame-10 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.e-learning .lorem {
+  width: fit-content;
+  font-family: var(--button-14-font-family);
+  font-weight: var(--button-14-font-weight);
+  color: #000000;
+  font-size: var(--button-14-font-size);
+  text-align: center;
+  letter-spacing: var(--button-14-letter-spacing);
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1.00px;
+  line-height: var(--button-14-line-height);
+  font-style: var(--button-14-font-style);
+}
+
+.e-learning .frame-11 {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  gap: 14px;
+  position: absolute;
+  top: 1260px;
+  left: 1px;
+  box-shadow: var(--shadow-m);
+}
+
+.e-learning .frame-12 {
+  display: flex;
+  width: 289px;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+}
+
+.e-learning .vector {
+  margin-left: -1.00px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 3px;
+}
+
+.e-learning .div-wrapper {
+  display: flex;
+  width: 138px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 10px;
+  position: relative;
+}
+
+.e-learning .text-wrapper-2 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--sub-heading-24-font-family);
+  font-weight: var(--sub-heading-24-font-weight);
+  color: #000000;
+  font-size: var(--sub-heading-24-font-size);
+  letter-spacing: var(--sub-heading-24-letter-spacing);
+  line-height: var(--sub-heading-24-line-height);
+  font-style: var(--sub-heading-24-font-style);
+}
+
+.e-learning .vector-2 {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 3px;
+}
+
+.e-learning .searchbar {
+  display: flex;
+  width: 1100px;
+  align-items: center;
+  position: absolute;
+  top: 330px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: var(--shadow-m);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.e-learning .frame-13 {
+  display: flex;
+  height: 35px;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 20px;
+  position: relative;
+  flex: 1;
+  border-radius: 10px 0px 0px 10px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-color: #000000;
+}
+
+.e-learning .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--sub-heading-18-font-family);
+  font-weight: var(--sub-heading-18-font-weight);
+  color: var(--neutralgray-70);
+  font-size: var(--sub-heading-18-font-size);
+  letter-spacing: var(--sub-heading-18-letter-spacing);
+  line-height: var(--sub-heading-18-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-heading-18-font-style);
+}
+
+.e-learning .icon-search-wrapper {
+  display: flex;
+  width: 47px;
+  height: 35.5px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 9px;
+  position: relative;
+  background-color: var(--secondaryorangeorange-100);
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.e-learning .icon-search {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(assets/search.svg);
+  background-size: 100% 100%;
+}
+
+.e-learning .footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 150px;
+  position: absolute;
+  top: 1720px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--secondaryorangeorange-100);
+}
+
+.e-learning .logo-navbar {
+  position: relative;
+  width: 177px;
+  height: 44px;
+  margin-left: 70px;
+}
+
+.e-learning .frame-14 {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  position: relative;
+  margin-right: 100px;
+}
+
+.e-learning .frame-15 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.e-learning .img-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.e-learning .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--sub-heading-18-font-family);
+  font-weight: var(--sub-heading-18-font-weight);
+  color: var(--neutralwhite);
+  font-size: var(--sub-heading-18-font-size);
+  letter-spacing: var(--sub-heading-18-letter-spacing);
+  line-height: var(--sub-heading-18-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-heading-18-font-style);
+}
+
+.e-learning .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--sub-heading-18-font-family);
+  font-weight: var(--sub-heading-18-font-weight);
+  color: var(--neutralwhite);
+  font-size: var(--sub-heading-18-font-size);
+  letter-spacing: var(--sub-heading-18-letter-spacing);
+  line-height: var(--sub-heading-18-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-heading-18-font-style);
+}
+
+.e-learning .navbar {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13.9px 30px;
+  position: absolute;
+  background-color: var(--primarypurple-100);
+  box-shadow: var(--shadow-m);
+  top: -8px;
+  left: 0;
+}
+
+.e-learning .div-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  top: 3px;
+  right: 110px;
+}
+
+.e-learning .text-nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.e-learning .lorem-ipsum-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--sub-heading-16-font-family);
+  font-weight: var(--sub-heading-16-font-weight);
+  color: var(--neutralwhite);
+  font-size: var(--sub-heading-16-font-size);
+  letter-spacing: var(--sub-heading-16-letter-spacing);
+  line-height: var(--sub-heading-16-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-heading-16-font-style);
+}
+
+.e-learning .icon-account-circle {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  margin-left: -150px;
+  top: 2px;
+}
